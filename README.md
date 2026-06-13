@@ -133,6 +133,11 @@ reset-then-read sequence.
 
 If you've used this on your own monolith and hit a wiring case it didn't
 handle, that case is the most valuable thing you can contribute back.
+## Credits
+
+Built by [Vineet Parikh](https://github.com/vineetparikh-rph).
+
+Contributions from [lotusmuds](https://github.com/lotusmuds) and [chrisboyd08043](https://github.com/chrisboyd08043).
 
 ## License
 
