@@ -1,0 +1,21 @@
+{
+  "name": "monolith-carve",
+  "version": "0.1.0",
+  "description": "Safely split a Node monolith into register(app, kernel) modules — verbatim moves, with gates that prove behavior didn't change.",
+  "type": "module",
+  "bin": { "carve": "bin/cli.mjs" },
+  "exports": {
+    "./analyze": "./src/analyze.mjs",
+    "./extract": "./src/extract.mjs",
+    "./survey": "./src/survey.mjs"
+  },
+  "files": ["bin", "src", "examples", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node test/selftest.mjs"
+  },
+  "keywords": ["modularization", "refactoring", "monolith", "ast", "ts-morph",
+    "codemod", "express", "nodejs", "code-splitting", "verbatim"],
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": { "ts-morph": "^28.0.0" }
+}

@@ -1,0 +1,9 @@
+{
+  "source": "examples/server.js",
+  "app": "app",
+  "expectedRoutes": 6,
+  "modules": [
+    { "name": "billing", "ranges": [[26, 33]] },
+    { "name": "session", "ranges": [[36, 44]] }
+  ]
+}
