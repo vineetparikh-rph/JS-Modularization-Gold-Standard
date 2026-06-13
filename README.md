@@ -143,6 +143,9 @@ Built by [Vineet Parikh](https://github.com/vineetparikh-rph).
 Contributions from [lotusmuds](https://github.com/lotusmuds) and
 [chrisboyd08043](https://github.com/chrisboyd08043).
 
+Developed at [DrRx Inc.](https://github.com/drrx-ai) as part of internal
+infrastructure work, and released as open source under the MIT license.
+
 ## License
 
 MIT.
