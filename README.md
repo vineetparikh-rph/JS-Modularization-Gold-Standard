@@ -1,8 +1,8 @@
-#  JS MModularization Gold Standard
+#  JS Modularization Gold Standard
 
 **Safely split a Node monolith into modules — and prove behavior didn't change.**
 
-`carve` lifts regions of a giant `server.js`-style file into small
+`JS Modularization Gold Standard` lifts regions of a giant `server.js`-style file into small
 `register(app, kernel)` modules. Every extraction is a **verbatim move**: the
 code you pull out is byte-for-byte the code that was there, except for the one
 mechanical edit a module boundary forces — references to mutable singletons
